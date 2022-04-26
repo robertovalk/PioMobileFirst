@@ -1,0 +1,60 @@
+.ladoEsquerdo {
+    width: 100%;    
+    background: #EA6F6F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladoEsquerdoImagem {
+    width: 80vw;
+    max-width: 393px;
+    padding: 6%;
+}
+
+.ladoEsquerdoBoxTexto {
+    text-align: justify;
+    width: 296px;
+}
+
+.boxTextoTitulo {
+    padding-left: 6%;
+    margin-bottom: 1%;
+    color: #3F3D56;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.boxTextoParagrafo {
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 3%;
+    color: #F5D9D9;
+    font-size: 12px;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .ladoEsquerdo {
+        width: 60%;
+        height: 100vh;
+    }
+
+    .ladoEsquerdoImagem {
+        padding: 6%;
+        padding-left: 2%;
+    }
+
+    .ladoEsquerdoBoxTexto {
+        width: unset;
+        text-align: left;
+        padding-left: 10%;
+    }
+    
+    .boxTextoParagrafo {
+        font-size: 27px;
+        text-align: unset;
+        padding-right: 20%;
+        padding-left: 6%;
+    }
+}

@@ -1,0 +1,61 @@
+@media(min-width:768px){
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ladoEsquerdo {
+        width: 60%;
+        height: 100vh;
+        padding: 1%;
+    }
+
+    .ladoEsquerdoImagem {
+        width: 80vw;
+        max-width: 393px;
+        padding: 7%;
+        display: flex;
+        align-items: center;
+    }
+
+    .ladoEsquerdoBoxTexto {
+        width: unset;
+        text-align: left;
+    
+    }
+
+    .boxTextoParagrafo {
+        font-size: 18px;
+
+    }
+
+    .ladoDireito {
+        width: 40%;
+        height: 100vh;
+    }
+
+    .ladoDireitoTopo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8%;
+        padding: 6%;
+    }
+
+    .inputsabaixo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 21px;
+    }
+
+    .footForms {
+        margin-right: 10%;
+    }
+
+    .rodape {
+        padding-right: 15%;
+        padding-top: 20%;
+    }
+    
+}
+

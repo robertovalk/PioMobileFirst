@@ -1,0 +1,256 @@
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+.ladoDireito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladoDireitoTopo {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.topoImagem {
+    margin-right: 57px;
+}
+
+.topoBotao {
+    width: 65px;
+    height: 25px;
+    background: #EA6F6F;
+    border-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 500ms;
+    
+}
+
+.topoBotao:hover {
+    background: #3F3D56;
+    box-shadow: 0px 3px 6px #3F3D564B;
+}
+
+.ladoDireitoForms {
+    display: flex;
+    flex-direction: column;
+}
+
+.ladoDireitoForms p {
+    font-size: 18px;
+    color: #848484;
+    font-weight: normal;
+    margin-bottom: 1%;
+}
+
+.ladoDireitoForms h2 {
+    color: #EA6F6F;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.ladoDireitoInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputPadraoEmail {
+    height: 30px;
+    width: 266px;
+    margin-bottom: 4%;
+    background-color: #FFFFFF;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px;
+    background-image: url(../imagens-pio/email.svg);
+    background-position: 235px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    transition: all 500ms;
+}
+
+.inputPadraoEmail:hover {
+    box-shadow: 0px 2px 6px #EA6F6F29;
+}
+
+.inputPadraoEmail:focus{
+    outline: 1px solid  #EA6F6F; 
+    color: #EA6F6F;
+    box-shadow: 0px 3px 6px #EA6F6F27;
+    border-color: transparent;
+}
+
+.inputPadraoEmail::placeholder{
+    box-shadow: 0px 3px 6px #EA6F6F27;
+    border-color: transparent; 
+    color:#C1C1C1;
+}
+
+
+.inputPadraoSenha {
+    height: 30px;
+    width: 266px;
+    margin-bottom: 4%;
+    background-color: #FFFFFF;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px;
+    background-image: url(../imagens-pio/olho-senha.svg);
+    background-position: 235px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    transition: all 500ms;
+}
+
+.inputPadraoSenha:hover {
+    box-shadow: 0px 2px 6px #EA6F6F29;
+}
+
+
+.inputPadraoSenha:focus{
+    outline: 1px solid  #EA6F6F; 
+    color: #EA6F6F;
+    box-shadow: 0px 3px 6px #EA6F6F27;
+    border-color: transparent;
+}
+
+
+.inputPadraoSenha::placeholder {
+    color: #C1C1C1;
+    font-size: 14px;
+}
+
+.inputsabaixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputSubmit {
+    height: 30px;
+    width: 266px;
+    background: linear-gradient(98deg, #EA6F6F, #EA876F);
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.inputSubmit:hover {
+    box-shadow: 0px 3px 6px #EA6F6F40;
+}
+
+.inputSubmitGoogle {
+    height: 30px;
+    width: 266px;
+    background-color: #FFFFFF;
+    border: 1px solid #848484;
+    color: #4589E5;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.inputSubmitGoogle:hover {
+    background: #4589E5;
+    box-shadow: 0px 3px 6px #4589E534;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+.footForms {
+    margin-top: 5%;
+    margin-right: 9%;
+}
+.footForms p {
+    margin-bottom: 60px;
+    color: #848484;
+}
+
+.footForms a {
+    color: #4589E5;
+}
+
+.rodape {
+    padding-right: 20%;
+    margin-bottom: 20px;
+}
+
+.rodape a {
+    color: #EA6F6F;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1024px){
+    .inputPadraoEmail,  .inputPadraoSenha, .inputSubmit, .inputSubmitGoogle  {
+        width: 366px;
+        height: 54px;
+        font-size: 16px;
+    }
+
+    .inputPadraoEmail,  .inputPadraoSenha{
+        background-position: 321px;
+    }
+
+    .topoBotao {
+        width: 156px;
+        height: 54px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .footForms {
+        padding-right: 21%;
+    }
+
+    .rodape {
+        margin-right: 23%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        overflow-y: hidden;
+    }
+    
+    .inputPadraoEmail,  .inputPadraoSenha, .inputSubmit, .inputSubmitGoogle {
+        width: 486px;
+        height: 54px;
+    }
+
+    .ladoEsquerdo {
+        height: 100vh;
+    }
+
+    .ladoDireito {
+        height: 100vh;
+    }
+
+    .rodape {
+        padding: 3%;
+    }
+}
+

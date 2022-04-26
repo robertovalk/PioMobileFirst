@@ -1,0 +1,35 @@
+@media (max-width=1024px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ladoEsquerdo {
+        width: 60%;
+        height: 100vh;
+    }
+
+    .ladoDireito {
+        width: 40%;
+        height: 100vh;
+    }
+
+    .ladoEsquerdoImagem {
+        padding: 6%;
+        padding-left: 2%;
+    }
+
+    .ladoEsquerdoBoxTexto {
+        width: unset;
+        text-align: left;
+        padding-left: 10%;
+    }
+    
+
+    .boxTextoParagrafo {
+        font-size: 27px;
+        text-align: unset;
+        padding-right: 20%;
+        padding-left: 6%;
+    }
+}

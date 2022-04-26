@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    min-width: 375px;
+}  
+
+
+a {
+    text-decoration: none;
+}
